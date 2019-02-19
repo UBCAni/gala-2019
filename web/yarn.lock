@@ -2969,6 +2969,14 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
+replacement-brunch@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/replacement-brunch/-/replacement-brunch-2.0.5.tgz#5d2448f958dd39de3859eb0be4c891ca7a209383"
+  integrity sha512-b3vjyCwhsNnlBLcv/ARTHqhxg+FdBEU5u9mh7G74wOli61uu99fK+Eh0gaCdxPzQqGEAu0rV0HuF1d4u59Q4wA==
+  dependencies:
+    anymatch "^1.3.0"
+    glob "^7.0.0"
+
 request@2, request@^2.61.0:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"

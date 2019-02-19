@@ -16,6 +16,7 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "postcss-brunch": "^2.1.0",
+    "replacement-brunch": "^2.0.5",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"
   }
