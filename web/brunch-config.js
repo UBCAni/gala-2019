@@ -17,8 +17,8 @@ exports.modules = {
 exports.plugins = {
     postcss: {},
     replacement: {
-	replacements: [{
-	    match: { find: 'pk_test_pIsbCWi9hua5DAc1GcPxlxPc', replace: process.env.STRIPE_PUBLISHED_KEY }
-	}]
+        replacements: [{
+            match: { find: 'pk_test_pIsbCWi9hua5DAc1GcPxlxPc', replace: process.env.STRIPE_PUBLISHED_KEY }
+        }]
     }
 };

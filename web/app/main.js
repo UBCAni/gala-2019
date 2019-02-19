@@ -43,7 +43,7 @@ $(function() {
     }
 
     const purchase = $("#purchase");
-    if (disable() && purchase.hasClass("disabled")) {
+    if (disable() && !purchase.hasClass("disabled")) {
         (purchase.addClass("disabled"));
     }
 
