@@ -1,0 +1,46 @@
+.primary {
+    background-color: #82cafe;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    text-shadow: 3px 3px black;
+    margin: 0 0 10% 0;
+
+    @media screen and (min-width: 768px) {
+        font-size: 6rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 8rem;
+    }
+}
+
+#name + label:before {
+    content: "* ";
+    color: red;
+}
+
+#membership + label:before {
+    content: "* ";
+    color: red;
+}
+
+.completed {
+    color: #088b45;
+}
+
+.canceled {
+    color: #801D00;
+}

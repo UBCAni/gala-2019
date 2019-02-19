@@ -1,0 +1,20 @@
+{
+  "name": "gala-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eddie Zhou <eddiezhou1996@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd web && brunch b -p",
+    "start": "yarn run build && node index.js",
+    "watch": "cd web && yarn run start"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-rate-limit": "^3.4.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "stripe": "^5.5.0"
+  }
+}
