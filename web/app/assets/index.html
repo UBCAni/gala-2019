@@ -15,68 +15,67 @@
   <main>
     <div class="parallax-container">
         <div class="parallax valign-wrapper">
-          <img style="z-index: -5;" src="images/gala.png">
+          <img src="images/gala.png">
           <div class="title">
             <h1 class="title">Spring Gala 2019</h1>
           </div>
         </div>
-      </div>
-      <div class="section white container">
-        <div class="row">
-          <div class="col s12 m6 l4">
-              <h3>Details</h3>
-              <p>
-                  Join us for our members-only Spring Gala, happening at the AMS Nest <b>Saturday, March 23rd, from 18:00 - 21:00</b>. The event will feature a range of performances by talented members of the club. Food made by our executives and volunteers will also be available for order.
-                </p>
-                <p>
-                  RSVPs require a $5.00 deposit. The money can be used as credit during the event. Due to Stripe fees, however, <b>online RSVPs will require a $0.50 surcharge</b>. Apologies for the inconvenience.
-                </p>
-                <p>
-                  <b>We're still looking for performances and volunteers</b>. If you'd like to have a chance to show off, please fill out the <a href="https://ubcani.com/perform" target="_blank" rel="noopener noreferrer">performances registration form</a>. Similarly, if you'd like to volunteer, please fill out the <a href="https://ubcani.com/volunteer" target="_blank" rel="noopener noreferrer">volunteer form</a>.
-                </p>
-                <p>
-                  More details of our event, as well as updates at a later time, can be found on our <a href="https://ubcani.com/gala" target="_blank" rel="noopener noreferrer">Facebook event page</a>.
-                </p>
+    </div>
+    <div class="section white container">
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <h3>Details</h3>
+          <p>
+              Join us for our members-only Spring Gala, happening at the AMS Nest <b>Saturday, March 23rd, from 18:00 - 21:00</b>. The event will feature a range of performances by talented members of the club. Food made by our executives and volunteers will also be available for order.
+          </p>
+          <p>
+            RSVPs require a $5.00 deposit. The money can be used as credit during the event. Due to Stripe fees, however, <b>online RSVPs will require a $0.50 surcharge</b>. Apologies for the inconvenience.
+          </p>
+          <p>
+            <b>We're still looking for performances and volunteers</b>. If you'd like to have a chance to show off, please fill out the <a href="https://ubcani.com/perform" target="_blank" rel="noopener noreferrer">performances registration form</a>. Similarly, if you'd like to volunteer, please fill out the <a href="https://ubcani.com/volunteer" target="_blank" rel="noopener noreferrer">volunteer form</a>.
+          </p>
+          <p>
+            More details of our event, as well as updates at a later time, can be found on our <a href="https://ubcani.com/gala" target="_blank" rel="noopener noreferrer">Facebook event page</a>.
+          </p>
+        </div>
+        <div class="identity col s12 m6 l8">
+          <h3>Registration</h3>
+          <div class="row">
+            <div class="col s12">
+              <div class="input-field">
+                <input id="name" class="validate" placeholder="e.g. Yubi Shiani" type="text" maxlength="64" required />
+                <label for="name" data-error="Name is required">Full Name</label>
+              </div>
+            </div>
           </div>
-          <div class="identity col s12 m6 l8">
-            <h3>Registration</h3>
-            <div class="row">
-              <div class="col s12">
-                <div class="input-field">
-                  <input id="name" class="validate" placeholder="e.g. Yubi Shiani" type="text" maxlength="64" required />
-                  <label for="name" data-error="Name is required">Full Name</label>
-                </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="input-field">
+                <input id="membership" class="validate" placeholder="e.g. yubi@ubcani.com" type="text" maxlength="3" required />
+                <label for="membership" data-error="Membership Number is required">Membership #</label>
               </div>
             </div>
-            <div class="row">
-              <div class="col s12">
-                <div class="input-field">
-                  <input id="membership" class="validate" placeholder="e.g. yubi@ubcani.com" type="text" maxlength="3" required />
-                  <label for="membership" data-error="Membership Number is required">Membership #</label>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <div class="input-field">
-                  <input id="plusOne" class="validate" placeholder="e.g. Tano Ushio" type="text" maxlength="64" />
-                  <label for="plusOne">Name of +1 Guest (if applicable)</label>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <div class="input-field">
-                  <textarea id="additional" class="materialize-textarea validate" placeholder="e.g. dietary restrictions"></textarea>
-                  <label for="additional">Additional Comments</label>
-                </div>
-              </div>
-            </div>
-            <div class="row center-align">
-              <button id="purchase" type="submit" class="waves-effect waves-light btn-large light-blue darken-3">Pay by Card</button>
-            </div>
-            <div id="response" class="center-align hide">Thank you for your purchase!</div>
           </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="input-field">
+                <input id="plusOne" class="validate" placeholder="e.g. Tano Ushio" type="text" maxlength="64" />
+                <label for="plusOne">Name of +1 Guest (if applicable)</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="input-field">
+                <textarea id="additional" class="materialize-textarea validate" placeholder="e.g. dietary restrictions"></textarea>
+                <label for="additional">Additional Comments</label>
+              </div>
+            </div>
+          </div>
+          <div class="row center-align">
+            <button id="purchase" type="submit" class="waves-effect waves-light btn-large light-blue darken-3">Pay by Card</button>
+          </div>
+          <div id="response" class="center-align hide">Thank you for your purchase!</div>
         </div>
       </div>
     </div>

@@ -17,7 +17,9 @@ exports.modules = {
 exports.plugins = {
     postcss: {},
     replacement: {
+        environment: 'production',
         replacements: [{
+            files: [/\.js$/],
             match: { find: 'pk_test_pIsbCWi9hua5DAc1GcPxlxPc', replace: process.env.STRIPE_PUBLISHED_KEY }
         }]
     }
