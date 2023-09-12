@@ -6,15 +6,18 @@
   "license": "MIT",
   "scripts": {
     "build": "cd web && brunch b -p",
-    "start": "yarn run build && node index.js",
-    "watch": "cd web && yarn run start"
+    "start": "npm run build && node index.js",
+    "watch": "cd web && npm run start"
   },
   "dependencies": {
-    "dotenv": "^5.0.1",
-    "express": "^4.16.2",
-    "express-rate-limit": "^3.4.0",
-    "request": "^2.83.0",
-    "request-promise-native": "^1.0.5",
-    "stripe": "^5.5.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "stripe": "^13.5.0"
+  },
+  "devDependencies": {
+    "brunch": "^4.0.2"
   }
 }
